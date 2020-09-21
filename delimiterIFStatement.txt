@@ -1,0 +1,19 @@
+for this_zf in zip_files :
+    with ZipFile("WedgeZipOfZips_Small/holder/" + this_zf,'r') as zf :
+        zipped_files = zf.namelist()
+
+        for file_name in zipped_files:
+            #print(file_name)
+            input_file = zf.open(file_name)
+            if delimiters[file_name] == ',':
+                for line in input_file.readlines() :
+                    line = line.decode("utf-8").strip().split(',')
+                       
+                    #print(line)
+            else:
+                for line in input_file.readlines() :
+                    line = line.decode("utf-8").strip().split(";")
+                
+                    #print(line)
+                    
+            input_file.close()
