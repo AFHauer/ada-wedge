@@ -4,8 +4,10 @@ WedgeZipOfZips_Small.zip
 *.sqbpro
 WedgeZipFiles/*
 WedgeZipOfZips_Small/*
-
-
+*.json
+temp_clean/*
+temp_clean_lg/*
+*.txt
 
 
 
