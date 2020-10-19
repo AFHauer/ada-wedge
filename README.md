@@ -55,3 +55,29 @@ Notes:
 		3) Sales by product description by date: determines the total spend by Product description, date, number of transactions,
 			and items.
 			3.1) Sales_by_Product_by_Date.txt
+			
+			
+## Feedback
+
+First, nice README. Really helped me put together the submisison document. 
+
+Part 1 looks good. One note is to try to keep your code to no more than 80 columns wide. You've got some lines that are 
+longer than that when you add on the comments. I'm shocked you've stuck with these crazy long folder names on your harddrive. 
+Arguably you could have deleted your test cells in Part 1 B, but don't sweat it.
+
+Part 2: resubmit this without that giant printing to the screen. Also, this code is messed up: 
+```
+# print the random sample results 
+for onwner in sample :
+    print(sample)
+```
+You're re-printing your sample for every "onwer" in the data. Clean that stuff up and then resubmit, everything
+else looks good. Remember to re-read the submission guidelines!
+
+I'd suggest on Part 3 that you change to all lowercase for table names and fields. I won't ask you to 
+resubmit, but having these upper and lower case text is a recipe for sorrow. 
+
+Almost done. Just fix part 2, commit-and-push, and slack me a link to the repo.
+
+
+
